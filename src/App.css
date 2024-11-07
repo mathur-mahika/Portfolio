@@ -1,0 +1,128 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.w-full {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 10px;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p-6 {
+  padding: 24px;
+}
+
+.text-2xl {
+  font-size: 2.3rem;
+  align-items: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.pl-5 {
+  padding-left: 20px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-blue-500 {
+  color: #1d4ed8;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+/* Custom styling */
+#contact,
+#overview,
+#education,
+#experience,
+#technical-skills,
+#professional-skills {
+  background-color: #e6f7f7;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #333333;
+}
+
+p {
+  color: #666666;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #333333;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 8px;
+}
+
+h3 {
+  color: #333333;
+}
